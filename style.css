@@ -1,0 +1,84 @@
+body{
+    font-family: monospace;
+    color: olive;
+    }
+
+    h1{
+        font-size: 90px;
+        font-weight: lighter;
+        letter-spacing: 7px;
+        text-align: center;
+        margin: 50px 0 20px 0px;
+        color: olive; 
+    }
+
+
+    h2{
+        font-size: 35px;
+        padding: 0 100px;
+    }
+
+
+
+    p, li , h3 {
+        font-size: large;
+        text-align: center;
+    }
+
+    .polo-intro {
+        width: 65%;
+        padding: 0 0 0 0px;
+        margin: auto;
+    }
+
+    table {
+        background-position: center;
+        border: 1px dashed olive;
+        text-align: left;
+        margin: auto;
+    }
+
+    .gallery1 > img {
+        background-position: center;
+        float: left;
+        margin: 0 10px 0 85px;
+        max-width: 300px; 
+    }
+    
+
+
+    .gallery2 {
+        float: left; 
+    }
+
+    .gallery2 > img {
+        width: 300px;
+        filter: grayscale(100%);
+        margin-bottom: 5px;
+    }
+
+
+
+    footer {
+        background-color:  lightgray;
+        height: 50px;
+        color: #293137;
+        display: block;
+        font-size: 25px;
+        font-family: helvetica;
+        font-weight: 100;
+        padding-right: 10px;
+        opacity: 0.6;
+        width: 100%;
+    }
+
+    section {
+        overflow: hidden;
+    }
+
+    #juiciest-bits {
+        background-position: center;
+        width: 25%;
+        display: block;
+        margin: auto;
+    }
